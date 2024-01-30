@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+{% extends "kis_base.html" %}
+{% load static %}
+<html lang="en">
+<body>
+    {% block header %}
+    <div class="kis-guide-banner-container" style="background: url({% static 'keepitshortcss/keep_it_short_images/kis-guidelines-banner.png' %}), lightgray 0px -315.723px / 100% 246.525% no-repeat;">
+        <img src="{% static 'keepitshortcss/keep_it_short_images/kis_logo.png' %}" alt="image" class="kis-guide-logo">
+        <h1 class="kis-guide-banner-heading">Rules & Guidelines</h1>
+    </div>
+    <div class="kis-guide-text-container">
+        <p>By submitting an entry, participants agree to comply with these rules and guidelines. Cinystore reserves the right to disqualify any entry that violates these rules or compromises the integrity of the contest.</p>
+        <h3>We look forward to celebrating the creativity and talent of all participants!</h3>
+    </div>
+    <div class="kis-guide-info-container">
+        <div class="container-fluid mt-5 mb-5">
+            <div class="row">
+                <div class="col-12 col-md-5">
+                    <div class="kis-institute-invite-info-questions-div">
+                        <p id="question1" class="questions-active">Eligibility</p>
+                        <p id="question2">Team Composition</p>
+                        <p id="question3">Submission Criteria</p>
+                        <p id="question4">Originality and Ownership</p>
+                        <p id="question5">Technical Specifications</p>
+                        <p id="question6">Submission Deadline</p>
+                        <p id="question7">Judging Criteria</p>
+                        <p id="question8">Prizes</p>
+                        <p id="question9">Community Engagement</p>
+                        <p id="question10">Code of Conduct</p>
+                        <p id="question11">Content Guidelines</p>
+                        <p id="question12">Publicity and Promotion</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-7">
+                    <div class="kis-institute-invite-info-answers-div">
+                        <h1 id="qae-name">Eligibility</h1>
+                        <div id="answere1" style="display:block;">
+                            <p>The contest is open to filmmakers aged above 21 years of all, backgrounds, and experience levels.</p>
+                            <p>All team members must be credited with their respective roles in the film.</p>
+                        </div>
+                        <div id="answere2" style="display:none;">
+                            <p>Open only to teams with a direct association with a Film Training Institute, Animation Training Center, Recognized Drama Troupe, or Cultural Community.</p>
+                            <p>Teams should have a maximum of 3 members, each with designated roles (e.g., director, music, actor, and cinematographer).</p>
+                            <p>Team members can be a Part of Only one Team, cannot participate in multiple Entries</p>
+                            <p>Ensure that each team member's role is clearly defined in the film credits.</p>
+                        </div>
+                        <div id="answere3" style="display:none;">
+                            <p>Films must fall into one of the following categories: Short Films, Documentaries, or Experimental Films.</p>
+                            <p>Submissions should not exceed 4 minutes.</p>
+                            <p>Any Indian Language is open, but English subtitles are required</p>
+                            <p>All entries must be in English.</p>
+                        </div>
+                        <div id="answere4" style="display:none;">
+                            <p>Films must be original works, and participants must hold the rights to all content, including music and visuals.</p>
+                            <p>Plagiarism or unauthorized use of copyrighted material will result in disqualification.</p>
+                        </div>
+                        <div id="answere5" style="display:none;">
+                            <p>Films should be submitted in…………..</p>
+                            <p>Ensure high audio and video quality for optimal viewing experience.</p>
+                        </div>
+                        <div id="answere6" style="display:none;">
+                            <p>The deadline for submissions is ……...</p>
+                            <p>Late submissions will not be considered.</p>
+                        </div>
+                        <div id="answere7" style="display:none;">
+                            <p>Entries will be evaluated based on creativity, storytelling, and technical excellence by a panel of industry experts (Jury).</p>
+                            <p>User behavior, including engagement, feedback, and ratings, will also influence the final selection.</p>
+                        </div>
+                        <div id="answere8" style="display:none;">
+                            <p>Winners will be announced on [announcement date].</p>
+                            <p>Prizes include [list of prizes], mentorship opportunities, and featured recognition on Cinystore.</p>
+                        </div>
+                        <div id="answere9" style="display:none;">
+                            <p>Participants are encouraged to engage with the Cinystore community through comments, discussions, and feedback.</p>
+                            <p>Positive and constructive interactions are encouraged.</p>
+                        </div>
+                        <div id="answere10" style="display:none;">
+                            <p>All participants must adhere to ethical filmmaking practices.</p>
+                            <p>Any content promoting hate, violence, or discrimination will result in immediate disqualification.</p>
+                        </div>
+                        <div id="answere11" style="display:none;">
+                            <p>Films should avoid explicit violence, explicit content, and any form of religious or political endorsement or critique.</p>
+                        </div>
+                        <div id="answere12" style="display:none;">
+                            <p>Cinystore reserves the right to use submitted films for promotional purposes.</p>
+                            <p>Participants will be credited for their work in all promotional materials.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {% endblock %}
+</body>
+</html>
