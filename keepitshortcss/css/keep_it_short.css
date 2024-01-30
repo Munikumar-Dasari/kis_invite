@@ -82,7 +82,7 @@
 /*background-image: url("https://www.1min30.com/wp-content/uploads/2020/02/10-films-directeur-rice-marketing-scaled.jpg")*/
 
 .keep-it-short-signup-main-bg-container{font-family: Roboto,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Arial,sans-serif;min-height: 100vh;padding: 0px 20px;background:var(--Linear, linear-gradient(90deg, #040607 0.04%, #152627 50.73%, #040607 99.87%));background-size: cover;color: #fff;}
-.keep-it-short-signup-navbar{height:auto;width:100%;background:transparent;padding-top:10px;margin-bottom:20px;padding-left:40px;}
+.keep-it-short-signup-navbar{height:75px;width:100%;background:transparent;padding-top:10px;margin-bottom:20px;padding-left:40px;box-shadow: 10px 10px 10px #333;}
 
 .kis-signup-bg-container{min-height: 86vh;margin-bottom: 10px;box-shadow: 1px 1px 10px 1px #000;border-radius: 10px;}
 .kis-signup-bg-image{height: 100%;}
@@ -104,7 +104,7 @@
 .kis-signup-sub-text{font-size: 14px;font-weight: 300;}
 @media (max-width: 767px){
     .keep-it-short-signup-main-bg-container{padding: 0px;background-color: #75c6e1;background-image: url('');}
-    .keep-it-short-signup-navbar{padding:10px 10px;}
+    .keep-it-short-signup-navbar{padding:10px 10px;box-shadow: -5px 10px 10px #333;}
     .kis-signup-description{margin-top: 16px;}
     .kis-signup-input-container{margin-bottom: 24px;}
     .kis-signup-checkbox-container{margin-bottom: 16px;}
@@ -201,37 +201,68 @@
 /*..............kis invite..............*/
 .kis-institute-invite-img-div{width:100%;height:auto;opacity:0.5;margin-top:-138px;}
 .kis-institute-invite-top-container{display:flex;flex-direction:column;align-items:center;margin-top:-90px;}
-.kis-institute-invite-top-container h1{font-family: math;font-weight: 600;font-size: 26px;color: #f42a68;margin-bottom:15px;}
-.kis-institute-invite-top-container h3{font-family: math;font-weight: 500;font-size: 21px;margin-bottom:15px;}
-.kis-institute-invite-top-container p{font-family: math;font-weight: 500;font-size: 20px;margin-bottom:40px;text-align:center;}
+.kis-institute-invite-top-container h1{font-family: 'Gotham Black', sans-serif;font-weight: 900;font-size: 50px;color: #037e6e;margin-bottom:15px;}
+.kis-institute-invite-top-container h3{font-family: 'Gotham Black', sans-serif;font-weight: 500;font-size: 21px;margin-bottom:15px;}
+.kis-institute-invite-top-container p{font-family: 'Gotham Black', sans-serif;font-weight: 500;font-size: 20px;margin-bottom:40px;text-align:center;}
 .kis-institute-invite-container{height: 100%;width: 100%;display: flex;flex-direction:column;align-items: center;justify-content: center;}
 .kis-institute-invite-logo-div{width:100%;height:auto;}
 .kis-institute-invite-sponsor-name{font-family: 'Inter';font-weight: 600;font-size: 20px;margin-left: 80px;letter-spacing: 0.4px;margin-top:25px;text-align:start;}
 .kis-institute-invite-text-container{padding-left: 25px;}
 .kis-institute-invite-text-container h1{font-family: 'Inter';font-weight: 600;font-size: 22px;letter-spacing: 0.4px;color: #f42a68;margin-top: 20px;margin-bottom: 20px;}
-.kis-institute-invite-text-container p{font-family: 'Inter';font-weight: 400;font-size: 18px;letter-spacing: 0.4px;line-height: 1.3;}
+.kis-institute-invite-text-container p{font-family: 'Montserrat', sans-serif; font-weight: 400; font-size: 15px;letter-spacing: 0.4px;line-height: 1.2;color: black;}
 .kis-institute-invite-follow-text{font-family: 'Inter';font-weight: 600;font-size: 16px;text-align:center;}
 .kis-institute-invite-follow-text a{color: #FF5E3A;text-decoration: none;}
 .kis-institute-invite-mobile-view-img-div{width:100%;height:auto;}
-.kis-institute-invite-footer-container{height: auto;width: 100%;margin-top: 80px;padding: 10px 20px;border-top:1px solid #ede6e6;}
+.kis-institute-invite-footer-container{height: auto;width: 100%;margin-top: 100px;padding: 10px 20px;border-top:1px solid #ede6e6;}
 
-.kis-institute-invite-info-main-container{width:100%;height:auto;background:#ede6e6;padding:10px 100px;margin-top:50px;}
-.kis-institute-invite-info-questions-div{display:flex;flex-direction:column;margin-top:30px;}
+.kis-institute-invite-info-main-container{width: 90%; height: auto; background: #ede6e6; padding: 16px 100px; margin-top: 50px; box-shadow: 1px 6px 10px 19px #15080840; margin-left: 100px;}
+.kis-institute-invite-info-questions-div{display:flex;flex-direction:column;margin-top:30px;border-right:dotted;padding-right:20px;}
 
 .questions-active{border-radius: 6px;background: #ff5e3a40;color:#ff5e3ac7;font-weight:600;}
 
-.kis-institute-invite-info-questions-div p{font-family: 'Inter';font-size: 18px;margin-bottom: 17px;padding-left:20px;}
-.kis-institute-invite-info-answers-div{width:100%;height:auto;padding:10px;border-left: 2px solid gray;padding-left:35px;}
-
+.kis-institute-invite-info-questions-div p{font-family: 'Gotham Black', sans-serif;font-size: 19px;margin-bottom: 17px;font-weight:900; padding-left:0px;}
+.kis-institute-invite-info-answers-div{width:100%;height:auto;padding:10px;padding-left: 30px; font-family: 'Montserrat', sans-serif; font-size: 18px;}
+.kis-institute-invite-info-ans p{color: #343333;
+font-feature-settings: 'liga' off;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */}
 
 @media (max-width:767px){
-    .kis-institute-invite-info-main-container{padding:10px 10px;}
+    .kis-institute-invite-info-main-container{padding: 10px 11px; margin-left: 4px;width: 100%;}
     .kis-institute-invite-img-div{margin-top:-66px;}
     .kis-institute-invite-text-container{padding-left:0px;}
-    .kis-institute-invite-top-container{margin-top:0px;}
+    .kis-institute-invite-top-container{margin-top: 0px; text-align: center; display: flex;flex-direction: column;  margin-left: 0px;}
     .kis-institute-invite-sponsor-name{margin-left: 0px;text-align: center;margin-bottom: 20px;margin-top:0px;}
     .kis-institute-invite-follow-text{margin-left:0px;margin-top:15px;}
     .kis-institute-invite-mobile-view-img-div{margin-bottom:20px;}
-    .kis-institute-invite-info-answers-div{border-top: 1px solid gray;padding-top: 34px;border-left:0px;padding-left:0px;}
+    .kis-institute-invite-info-answers-div{border-top: dotted;padding-top: 34px;border-left:0px;padding-left:0px;}
+    .kis-institute-invite-container {width: 85%;}
+    .kis-institute-invite-logo-div{margin-bottom: 30px;}
+    .kis-institute-invite-info-questions-div {border-right:0px;padding-inline-start: 0px;}
 }
 /*..............kis invite..............*/
+
+
+/*.........kis guidelines...........*/
+.kis-guide-banner-container{height:auto;width:100%;padding: 80px 130px;}
+.kis-guide-logo{width: 160px;height: 120px;margin-bottom: 30px;}
+.kis-guide-banner-heading{color: #FFC700;font-feature-settings: 'liga' off;font-family: Inter;font-size: 48px;font-style: normal;font-weight: 700;line-height: 60px;letter-spacing: -1.2px;}
+.kis-guide-text-container{background: #f0f6f2;width:100%;height:auto;padding:70px 150px;}
+.kis-guide-text-container p{color: #343333;text-align: center;font-feature-settings: 'liga' off;font-family: Inter;font-size: 18px;font-style: normal;font-weight: 500;line-height: 28px;}
+.kis-guide-text-container h3{color: #343333;text-align: center;font-feature-settings: 'liga' off;font-family: Inter;font-size: 24px;font-style: normal;font-weight: 500;line-height: 28px;}
+.kis-guide-info-container{width:100%;height:auto;background:#fff;padding:40px 70px;}
+.kis-institute-invite-info-questions-div h1{color: #343333;font-family: Inter;font-size: 14px;font-style: normal;font-weight: 600;line-height: 24px;letter-spacing: -0.084px;margin-left: 20px;margin-bottom: 20px;text-decoration: underline;}
+.kis-institute-invite-info-answers-div h1{color: var(--ff-5-e-3-a, #FF5E3A);font-family: Inter;font-size: 28px;font-style: normal;font-weight: 600;line-height: 24px;letter-spacing: -0.168px;margin-bottom: 20px;text-decoration: underline;}
+
+@media (max-width:767px){
+    .kis-guide-banner-container{padding: 30px 10px;text-align: center;}
+    .kis-guide-logo{width: 130px;height: 100px;margin-bottom: 15px;}
+    .kis-guide-banner-heading {font-size: 32px;text-align: center;}
+    .kis-guide-text-container{padding:50px 20px;}
+    .kis-guide-info-container{padding: 10px 20px;}
+    .kis-institute-invite-info-answers-div h1{font-size:21px;}
+
+}
