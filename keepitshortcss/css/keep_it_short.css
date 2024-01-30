@@ -225,15 +225,13 @@
 
 
 @media (max-width:767px){
+    .kis-institute-invite-info-main-container{padding:10px 10px;}
     .kis-institute-invite-img-div{margin-top:-66px;}
     .kis-institute-invite-text-container{padding-left:0px;}
     .kis-institute-invite-top-container{margin-top:0px;}
     .kis-institute-invite-sponsor-name{margin-left: 0px;text-align: center;margin-bottom: 20px;margin-top:0px;}
     .kis-institute-invite-follow-text{margin-left:0px;margin-top:15px;}
     .kis-institute-invite-mobile-view-img-div{margin-bottom:20px;}
+    .kis-institute-invite-info-answers-div{border-top: 1px solid gray;padding-top: 34px;border-left:0px;padding-left:0px;}
 }
 /*..............kis invite..............*/
-
-
-/*.........kis guidelines...........*/
-.kis-guide-banner-container{height:390px;width:100%;}
