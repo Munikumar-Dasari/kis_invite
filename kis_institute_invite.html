@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+{% extends "kis_invite_base.html" %}
+{% load static %}
+<body>
+{% block header %}
+    <div class="kis-institute-invite-bg-container">
+        <div class="kis-institute-invite-top-container">
+            <h1>Inviting Institutes</h1>
+            <h3>Unlock Your Creative Potential</h3>
+            <p>Educational Institutes in Keep It Short Online Movie Talent Contest</p>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-5">
+                    <div class="kis-institute-invite-container">
+                        <div class="kis-institute-invite-logo-div">
+                            <img src="{% static 'keepitshortcss/keep_it_short_images/kis_logo.png' %}" style="width:100%;height:100%;" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-7">
+                    <div class="kis-institute-invite-text-container">
+                        <h1>About Cinystore</h1>
+                        <p>
+                            Cinystore is not just a platform; it's a movement to democratize the film industry.
+                            We believe in the power of storytelling and want to provide a level playing field for
+                            emerging filmmakers. Our platform is designed to showcase diverse cinematic voices
+                            and offer equal opportunities to all, regardless of financial backing.
+                        </p>
+                        <p>
+                            We believe in the power of storytelling and want to provide a level playing field for emerging filmmakers to
+                            showcase their content to the world.
+                        </p>
+                        <h1>Keep It Short</h1>
+                        <p>
+                            As par of our commitment to nurtuting talent, we are organizing an Online Movie Talent Contest-Keep
+                            it Short to discover and celebrate the next generation of storytellers, a competitive reality show for
+                            up-coming filmmakers to showcase their filmmaking talents through their short films 3-4 minutes, and compete with
+                            other aspiring filmmakers to win prize money, and where <span style="color:red;">"THE AUDIENCE"</span> will be the judges.
+                        </p>
+                        <p>
+                            This contest is a unique oppoertunity for the students of Film and Animation Institures to showcase
+                            their creativity, hone their filmmaking skills, and gain recognition on a larger and dedicated platform.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="kis-institute-invite-info-main-container">
+            <div class="container-fluid mt-5 mb-5">
+                <div class="row">
+                    <div class="col-12 col-md-5">
+                        <div class="kis-institute-invite-info-questions-div">
+                            <p id="question1" class="questions-active">Introduction</p>
+                            <p id="question2">Why Participate?</p>
+                            <p id="question3">How Educational Institutes Can Get Involved?</p>
+                            <p id="question4">How to Participate?</p>
+                            <p id="question5">Exclusive Benefits for Participating Educational Institutes:</p>
+                            <p id="question6">How to Participate?</p>
+                            <p id="question7">How to Register?</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-7">
+                        <div class="kis-institute-invite-info-answers-div">
+                            <div id="answere1">
+                                <p>We extend an enthusiastic invitation to all Film and animation Training institutes passionate about fostering creativity and empowering young talents.</p>
+                                <p>Keep It Short Online Movie Talent Contest is on the lookout for innovative entries, and we believe your institute has the potential to showcase the best of the emerging filmmaking talent.</p>
+                            </div>
+                            <div id="answere2" style="display:none">
+                                <p><span style="font-weight:600;">Showcase Student Creativity:</span> Provide your students with a platform to express their creativity and storytelling skills on a global stage.</p>
+                                <p><span style="font-weight:600;">Nurturing Emerging Talent:</span> Support the next generation of filmmakers by providing a platform for students to showcase their creativity and skills.</p>
+                                <p><span style="font-weight:600;">Gain Recognition:</span> Elevate your institute's profile by participating in a prestigious event dedicated to promoting and celebrating the talents within the academic community.</p>
+                                <p><span style="font-weight:600;">Networking Opportunities:</span> Connect with other institutes, industry professionals, and filmmakers, fostering collaboration and expanding your network.</p>
+                                <p><span style="font-weight:600;">Global Exposure:</span> Position your institute on a global stage with extensive online visibility before, during, and after the event. Benefit from branding across our website, social media channels, and digital marketing campaigns.</p>
+                            </div>
+                            <div id="answere3" style="display:none">
+                                <p><span style="font-weight:600;">Participation:</span> Encourage your students to submit their creative entries and participate in various categories, gaining valuable exposure and experience.</p>
+                                <p><span style="font-weight:600;">Sponsorship:</span> Explore sponsorship opportunities tailored for educational institutes. Showcase your commitment to arts and culture while enjoying branding benefits across our online platforms.</p>
+                                <p><span style="font-weight:600;">Collaborative Workshops:</span> : Host workshops or webinars to share insights and expertise with participants, enhancing their skills and knowledge in the field of filmmaking.</p>
+                            </div>
+                            <div id="answere4" style="display:none">
+                                <p><span style="font-weight:600;">Register:</span> Visit our website at [Website Link] to register your institute for the contest.</p>
+                                <p><span style="font-weight:600;">Submit Entries:</span> Encourage your students to create and submit their short films, showcasing their filmmaking skills in various categories.</p>
+                                <p><span style="font-weight:600;">Promote:</span> Share the contest details within your institute community and on social media platforms to maximize participation.</p>
+                            </div>
+                            <div id="answere5" style="display:none">
+                                <p><span style="font-weight:600;">Institute Showcase:</span> : Featured on our website and promotional materials as participating institutes, gaining exposure to a global audience.</p>
+                                <p><span style="font-weight:600;">Certificate of Participation:</span> Receive official certificates recognizing your institute's participation in Keep It Short Online Movie Talent Contest.</p>
+                                <p><span style="font-weight:600;">Networking Opportunities:</span> Connect with other participating institutes, industry professionals, and filmmakers through exclusive online networking events.</p>
+                            </div>
+                            <div id="answere6" style="display:none">
+                                <p>Registration Deadline: [Date]</p>
+                                <p>Submission Deadline: [Date]</p>
+                            </div>
+                            <div id="answere7" style="display:none">
+                                <p>Visit <a href="{% url 'keepitshort:index' %}" style="color:#FF5E3A;">https://cinystore.com/keepitshort/keepitshort</a> to register your institute and access detailed guidelines for participation.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--<div class="container-fluid pl-md-5">
+            <div class="row">
+                <div class="col-12 col-md-3">
+                    <div class="kis-institute-invite-mobile-view-img-div">
+                        <img src="{% static 'keepitshortcss/keep_it_short_images/kis-invite-img.png' %}" style="height:100%;width:100%;" >
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="kis-institute-invite-mobile-view-img-div">
+                        <img src="{% static 'keepitshortcss/keep_it_short_images/kis-invite-img.png' %}" style="height:100%;width:100%;" >
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="kis-institute-invite-mobile-view-img-div">
+                        <img src="{% static 'keepitshortcss/keep_it_short_images/kis-invite-img.png' %}" style="height:100%;width:100%;" >
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="kis-institute-invite-mobile-view-img-div">
+                        <img src="{% static 'keepitshortcss/keep_it_short_images/kis-invite-img.png' %}" style="height:100%;width:100%;" >
+                    </div>
+                </div>
+            </div>
+        </div>-->
+    </div>
+{% endblock %}
+</body>
+</html>
